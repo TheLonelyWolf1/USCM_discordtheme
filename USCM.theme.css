@@ -138,6 +138,13 @@ a:link{
 	background-color:red;
 }
 /*Chat*/
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece{
+	background-color:rgba(0, 0, 0, 0.1);
+	border-color:rgba(0, 0, 0, 0.1);
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb{
+	border-color:rgba(0, 0, 0, 0.1);
+}
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-{
 	background-color:black;
 	border:1px solid white;
@@ -259,12 +266,20 @@ a:link{
 	background-color:rgba(0, 0, 0, 0.7) !important;
 }
 /*Member List*/
+.membersWrap-2h-GB4{
+	min-height:90% !important;
+	
+}
 .theme-dark .members-1998pB{
 	background-color:rgba(0, 0, 0, 0.7);
 	border:1px solid white;
 	margin-right:0px !important;
 	border-radius:10px 10px 10px 10px / 10px 10px 10px 10px;
 	margin-bottom:10px;
+	min-height:195% !important;
+}
+.scrollerWrap-2lJEkd{
+	height:50%;
 }
 .theme-dark .membersGroup-v9BXpm{
 	margin-left:7px;
@@ -303,6 +318,9 @@ background-color:black;
 }
 
 /*Settings*/
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller{
+	height:1000px;
+}
 .theme-dark .cardPrimary-1Hv-to{
 	background-color:#336669;
 	border-radius: 0px 25px 0px 25px / 0px 25px 25px 25px;
@@ -324,6 +342,16 @@ background-color:black;
 .theme-dark .bda-slist li, .bda-slist li{
 	background-color:rgba(0, 0, 0, 0.7);
 	border:1px solid #346669;
+	height:200px;
+	min-height:150px;
+	max-height:300px;
+}
+.bda-slist .bda-footer{
+	min-height:50px;
+	padding-top:0px;
+}
+#bd-settingspane-container .scroller-wrap{
+	height:70%;
 }
 .bda-slist .bda-description{
 	border-top:1px solid #346669;
@@ -348,12 +376,58 @@ background-color:black;
 	border-radius:0px 25px 0px 25px / 0px 25px 25px 25px;
 }
 /*FriendsList*/
+/*Game Library*/
+.theme-dark .gameLibrary-TTDw4Y{
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
+	background-color:rgba(0, 0, 0, 0.7);
+	border:1px solid white;
+	border-radius:0px 25px 0px 25px / 0px 25px 25px 25px;
+}
+.theme-dark .header-39GIC8{
+	background-color:rgba(0, 0, 0, 0.7);
+}
+/*Store*/
+.homeWrapper-3-Wh5T{
+	margin-right:15px;
+}
+.theme-dark .applicationStore-1pNvnv{
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.theme-dark .tag-HanR-9, .theme-light .tag-HanR-9{
+	background-image:linear-gradient(90deg,#FF9C00,#FF9C00);
+}
+.theme-dark .itemBackground-1jfD8p{
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.theme-dark .tileWrapper-2khh-w{
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.theme-dark .searchBox-3Y2Vi7{
+	background-color:rgba(0, 0, 0, 0.7);
+	border:1px solid white;
+	border-radius:0px 25px 0px 25px / 0px 25px 25px 25px;
+}
+/*Shop item*/
+.theme-dark .root-1bFE0x{
+	background-color:rgba(0, 0, 0, 0.7);
+	border:1px solid white;
+	border-radius:0px 25px 0px 25px / 0px 25px 25px 25px;
+}
+.theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP{
+	background-color:rgba(0, 0, 0, 0.7);
+}
+
 .theme-dark .topic-2QX7LI{
 	color:black;
 }
 .theme-dark #friends .friends-table .friends-table-header .friends-column:after{
 	content:" [USCM]";
 	color:white;
+}
+.theme-dark #friends{
+	background-color:rgba(0, 0, 0, 0.7);
 }
 .theme-dark #friends .tab-bar .tab-bar-item{
 	color:black;
@@ -380,7 +454,37 @@ background-color:black;
 	padding-right:10px;
 	margin-right:10px;
 }
+.wrapper-3eE7AX{
+	border:1px solid white;
+	border-radius:0px 25px 25px 25px / 25px 25px 0px 25px;
+}
+.video-1kutKI, .wrapper-1wyZBN{
+	border-radius:0px 25px 25px 25px / 25px 25px 0px 25px;
+}
+.theme-dark .tile-2QWaFv{
+	background-color:black;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb{
+	background-color:black;
+	border:1px solid white;
+}
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb{
+	background-color:#6799D4;
+}
+.theme-dark .tiles-2aXG_k{
+	background-color:black;
+}
+.video-1FfuMD{
+	background-color:rgba(0, 0, 0, 0);
+}
+.theme-dark .wrapper-29NfPK{
+	background-color:rgba(100, 100, 100, 0.1);
+	border-radius:25px 25px 25px 25px / 25px 25px 25px 25px;
+}
 	/*Games*/
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track{
+	background-color:rgba(0, 0, 0, 0.2);
+}
 .theme-dark .gameName-wzJptK{
 	text-transform:uppercase;
 	font-size:14px;
