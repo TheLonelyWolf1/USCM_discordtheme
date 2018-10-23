@@ -28,6 +28,11 @@ a:link{
 .theme-dark .ui-standard-sidebar-view{
 	background-color:rgba(0, 0, 0, 0.5);
 }
+.theme-dark .sidebarRegion-VFTUkN,
+.theme-dark .contentRegion-3nDuYy,
+.theme-dark .standardSidebarView-3F1I7i{
+	background:rgba(0, 0, 0, 0.5);
+}
 .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .ui-standard-sidebar-view .sidebar-region{
 	background-color:rgba(0, 0, 0, 0);
 }
@@ -265,6 +270,36 @@ a:link{
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece{
 	background-color:rgba(0, 0, 0, 0.7) !important;
 }
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j,
+.bda-dark #bda-qem button,
+.bda-dark #bda-qem{
+	background:rgba(0, 0, 0, 0.7);
+}
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6,
+.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar{
+	background:rgba(0, 0, 0, 0);
+}
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6{
+	border-bottom:1px solid #699BD5;
+	height:28px;
+	text-align:center;
+}
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU{
+	background:rgba(0, 0, 0, 0.7);
+}
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece{
+	background-color:rgba(0, 0, 0, 0) !important;
+	border-color:rgba(0, 0, 0, 0) !important;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb{
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb{
+	background-color:white;
+}
+.bda-dark #bda-qem button.active{
+	background-color:#699BD5;
+}
 /*Member List*/
 .membersWrap-2h-GB4{
 	min-height:90% !important;
@@ -276,10 +311,6 @@ a:link{
 	margin-right:0px !important;
 	border-radius:10px 10px 10px 10px / 10px 10px 10px 10px;
 	margin-bottom:10px;
-	min-height:195% !important;
-}
-.scrollerWrap-2lJEkd{
-	height:50%;
 }
 .theme-dark .membersGroup-v9BXpm{
 	margin-left:7px;
@@ -349,6 +380,7 @@ background-color:black;
 .bda-slist .bda-footer{
 	min-height:50px;
 	padding-top:0px;
+	margin-top:-70px;
 }
 #bd-settingspane-container .scroller-wrap{
 	height:70%;
@@ -358,6 +390,7 @@ background-color:black;
 	text-transform:uppercase;
 	font-weight:bold;
 	font-size:12px;
+	height:100px;
 }
 /*User Popup*/
 .headerPlaying-j0WQBV{
@@ -447,7 +480,8 @@ background-color:black;
 }
 .theme-dark .headerBar-UHpsPw{
 	margin-right:20px;
-	padding-right:1px;
+	padding-right:0px;
+	width:97%;
 }
 .theme-dark #friends{
 	margin-top:10px;
@@ -572,3 +606,5 @@ background-color:black;
 	margin-bottom:30px;
 	margin-left:2px;
 }
+/*Plugins Related*/
+/*Date Viewer*/
