@@ -1,4 +1,4 @@
-//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.7.1024", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
+//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1043", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
 
 a:link{
 	color:blue;
@@ -106,8 +106,15 @@ a:link{
 .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO{
 	background-color:gray;
 }
+.wrapperCollapsed-3Fbxl6, .wrapperDefault-10Jfvz, .wrapperHovered-28fu1D, .wrapperHoveredCollapsed-1PADEo, .wrapperMuted-3KeA2M, .wrapperUnread-1JPWj3{
+	background:radial-gradient(circle, rgba(152,237,255,1) 0%, rgba(118,217,255,1) 16%, rgba(119,199,237,1) 100%);
+	border-radius:25px;
+}
+.nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB{
+	color:#424242 !important;
+}
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H{	
-	color:white;
+	color:black;
 }
 .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB{
 	color:gray;
@@ -313,16 +320,10 @@ a:link{
 	margin-bottom:10px;
 }
 .theme-dark .membersGroup-v9BXpm{
-	margin-left:7px;
-	margin-top:7px;
-	background-color:#1A8CB3;
-	border-width:5px;
-	border-style:outset;
-	border-color:#2eb9ce;
-	border-radius:10px 25px 25px 10px / 10px 25px 25px 10px;
-	padding-top:7px;
-	padding-bottom:7px;
-	color:black;
+	border-bottom:1px solid #FFEB79;
+	margin-left:5px;
+	text-align:center;
+	color:#FFEB79;
 	font-weight:bold;
 	font-size:15px;
 }
@@ -373,14 +374,11 @@ background-color:black;
 .theme-dark .bda-slist li, .bda-slist li{
 	background-color:rgba(0, 0, 0, 0.7);
 	border:1px solid #346669;
-	height:200px;
-	min-height:150px;
-	max-height:300px;
 }
 .bda-slist .bda-footer{
 	min-height:50px;
 	padding-top:0px;
-	margin-top:-70px;
+	margin-top:-10px;
 }
 #bd-settingspane-container .scroller-wrap{
 	height:70%;
@@ -415,8 +413,6 @@ background-color:black;
 }
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
 	background-color:rgba(0, 0, 0, 0.7);
-	border:1px solid white;
-	border-radius:0px 25px 0px 25px / 0px 25px 25px 25px;
 }
 .theme-dark .header-39GIC8{
 	background-color:rgba(0, 0, 0, 0.7);
@@ -455,6 +451,12 @@ background-color:black;
 .theme-dark .topic-2QX7LI{
 	color:black;
 }
+.theme-dark #friends .friends-table .friends-table-header .friends-column{
+	padding:6px;
+	text-align:center;
+	background: radial-gradient(circle, rgba(119,190,237,1) 0%, rgba(114,182,228,1) 16%, rgba(67,107,134,1) 100%);
+	color:black;
+}
 .theme-dark #friends .friends-table .friends-table-header .friends-column:after{
 	content:" [USCM]";
 	color:white;
@@ -475,8 +477,14 @@ background-color:black;
 	margin-bottom:15px;
 	border-radius:0px 0px 0px 0px / 0px 0px 0px 0px;
 }
+.channel-2QD9_O.selected-1HYmZZ a{
+	background: radial-gradient(circle, rgba(152,237,255,1) 0%, rgba(118,217,255,1) 16%, rgba(119,199,237,1) 100%);
+}
 .channel-2QD9_O.selected-1HYmZZ, .channel-2QD9_O{
-	margin-top:4px;
+	margin-top:6px;
+	margin-left:6px;
+	background: linear-gradient(180deg, rgba(23,45,68,1) 0%, rgba(16,32,48,1) 39%, rgba(15,30,45,1) 100%);
+	border-radius:2px;
 }
 .theme-dark .headerBar-UHpsPw{
 	margin-right:20px;
@@ -606,5 +614,59 @@ background-color:black;
 	margin-bottom:30px;
 	margin-left:2px;
 }
+/*Profil*/
+.username-3gJmXY{
+	color:#FFEC7A;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover,
+.tab-bar.TOP .tab-bar-item+.tab-bar-item:hover,
+.tab-bar.tabBar-2MuP6- .tabBarItem-1b8RUP:hover{
+	background: radial-gradient(circle, rgba(152,237,255,1) 0%, rgba(118,217,255,1) 16%, rgba(119,199,237,1) 100%);
+	color:black;
+	padding-left:5px;
+	padding-right:5px;
+	border-bottom-color:transparent;
+	height:30px;
+	margin-left:5px;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.tab-bar.tabBar-2MuP6- .tabBarItem-1b8RUP,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.tab-bar.tabBar-2MuP6- .tabBarItem-1b8RUP+.tabBarItem-1b8RUP{
+	background: radial-gradient(circle, rgba(119,190,237,1) 0%, rgba(114,182,228,1) 16%, rgba(67,107,134,1) 100%);
+	color:black;
+	padding-left:5px;
+	padding-right:5px;
+	border-bottom-color:transparent;
+	height:30px;
+	margin-left:5px;
+}
+.bd-blue .tab-bar.TOP .tab-bar-item.selected{
+	border-radius:0px 0px 15px 0px / 0px 0px 15px 0px;
+	background:radial-gradient(circle, rgba(255,254,101,1) 0%, rgba(255,254,101,1) 16%, rgba(165,147,58,1) 100%);
+	color:black;
+	padding-left:5px;
+	padding-right:5px;
+	border-bottom-color:transparent;
+	height:30px;
+}
+.tabBarContainer-1s1u-z{
+	background-color:#0F1E2D;
+	height:30px;
+}
+.theme-dark .activityProfile-2bJRaP .headerText-1HLrL7, .theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7, .theme-light .activityProfile-2bJRaP .headerText-1HLrL7, .theme-light .activityUserPopout-2yItg2 .headerText-1HLrL7{
+	color:#FFEC7A;
+	border-bottom:1px solid #FFEC7A;
+}
+.topSectionPlaying-1J5E4n,
+.theme-dark .body-3ND3kc,
+.theme-dark .topSectionNormal-2-vo2m{
+	background-color:#0B0D0E;
+}
+/*Streaming*/
+.noticeStreamerMode-2TSQpg{
+	background-color:rgba(89,54,149,0.5);
+	border:1px solid #593695;
+	border-radius:15px 0px 15px 0px / 15px 0px 15px 0px;
+}
 /*Plugins Related*/
-/*Date Viewer*/
