@@ -1,8 +1,6 @@
-//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1043", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
+//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1313", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
 
-a:link{
-	color:blue;
-}
+
 .winButtonClose-1HsbF-{
 	background-color:red;
 }
@@ -484,7 +482,7 @@ background-color:black;
 .channel-2QD9_O.selected-1HYmZZ a{
 	background: radial-gradient(circle, rgba(152,237,255,1) 0%, rgba(118,217,255,1) 16%, rgba(119,199,237,1) 100%);
 }
-.channel-2QD9_O.selected-1HYmZZ, .channel-2QD9_O{
+.channel-2QD9_O a{
 	margin-top:6px;
 	margin-left:6px;
 	background: linear-gradient(180deg, rgba(23,45,68,1) 0%, rgba(16,32,48,1) 39%, rgba(15,30,45,1) 100%);
