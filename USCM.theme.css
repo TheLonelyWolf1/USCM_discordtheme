@@ -1,7 +1,15 @@
-//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1395", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
+//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1646", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
 
 .winButtonClose-1HsbF-{
 	background-color:red;
+}
+.theme-dark .topPill-30KHOu .item-PXvHYJ{
+	color:black;
+}
+.theme-dark #friends .scroller-wrap ::-webkit-scrollbar-thumb,
+.theme-dark #friends .scroller-wrap ::-webkit-scrollbar-track-piece{
+	background-color:rgba(0, 0, 0, 0);
+	border-color:rgba(0, 0, 0, 0);
 }
 /*------------------------------------------------------------------*/
 /*Background Picture*/
@@ -11,6 +19,7 @@
 }
 
 /*Background Transparenting*/
+.theme-dark .root-1BQpZw,
 .appMount-3VJmYg, .container-2lgZY8, .channels-Ie2l6A{
 	background-color:rgba(0, 0, 0, 0);
 }
@@ -162,6 +171,22 @@
 	background-color:red;
 }
 /*Chat*/
+.theme-dark .markup-2BOw-j{
+	color:rgba(0, 255, 255, 1);
+}
+.bd-blue .mention{
+	color:red;
+	background:linear-gradient(rgba(255, 150, 0, 0.2), rgba(255, 150, 0, 0.6));
+	border-radius:5px;
+	padding-left:4px;
+	padding-right:4px;
+}
+.isMentionedCozy-3isp7y:after{
+	border-color:rgba(255, 150, 0, 1);
+}
+.theme-dark .isMentioned-N-h9aa{
+	background:linear-gradient(rgba(255, 150, 0, 0.2), rgba(255, 150, 0, 0.8));
+}
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece{
 	background-color:rgba(0, 0, 0, 0.1);
 	border-color:rgba(0, 0, 0, 0.1);
@@ -202,7 +227,12 @@
 	border-radius: 0px 25px 25px 0px / 0px 25px 25px 0px;
 }
 .theme-dark .typing-2GQL18{
-	background-color:#336669;
+	background:linear-gradient(rgba(51, 102, 105, 0.9),rgba(51, 102, 105, 0.1));
+	border-radius:15px;
+	color:red;
+}
+.theme-dark .base-gE7OpD span{
+	color:orange;
 }
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI{
 	color:white;
