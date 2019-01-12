@@ -1,4 +1,4 @@
-//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1646", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
+//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1846", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
 
 .winButtonClose-1HsbF-{
 	background-color:red;
@@ -6,6 +6,7 @@
 .theme-dark .topPill-30KHOu .item-PXvHYJ{
 	color:black;
 }
+.theme-dark .container-3gCOGc,
 .theme-dark #friends .scroller-wrap ::-webkit-scrollbar-thumb,
 .theme-dark #friends .scroller-wrap ::-webkit-scrollbar-track-piece{
 	background-color:rgba(0, 0, 0, 0);
@@ -187,10 +188,13 @@
 .theme-dark .isMentioned-N-h9aa{
 	background:linear-gradient(rgba(255, 150, 0, 0.2), rgba(255, 150, 0, 0.8));
 }
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece,
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece{
 	background-color:rgba(0, 0, 0, 0.1);
 	border-color:rgba(0, 0, 0, 0.1);
 }
+..scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb{
 	border-color:rgba(0, 0, 0, 0.1);
 }
@@ -247,9 +251,9 @@
 	background-color:rgba(255, 0, 0, 0.8);
 	border-radius: 0px 25px 0px 25px / 0px 25px 25px 25px;
 }
-.scroller-wrap .scroller::-webkit-scrollbar-thumb{
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb
+{
 	background-color:white !important;
-	border-radius: 0px 30px 30px 0px / 255px 25px 25px 25px;
 }
   /*Messages*/
 .messageCompact-kQa7ES, .messageCozy-2JPAPA{
@@ -299,7 +303,6 @@
 	text-transform:uppercase;
 }
 /*Chat Input*/
-
 .theme-dark .inner-zqa7da{
 	background-color:#699BD5;
 	border-radius:0px 25px 25px 0px / 0px 25px 25px 0px;
@@ -307,6 +310,12 @@
 .chat-3bRxxu form{
 	margin-left:10px;
 	margin-right:10px !important;
+}
+/*GIFs*/
+.theme-dark .autocomplete-1vrmpx{
+	background-color:rgba(0, 0, 0, 0.7);
+	border:1px solid #699BD5;
+	border-radius:0px 25px 25px 0px / 0px 25px 25px 0px;
 }
 	/*Emojilist*/
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category{
