@@ -1,4 +1,4 @@
-//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1846", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
+//META{"name":"USCM", "description":"A Discord Theme for the Star Trek Online Fleet 'USCM'", "author":"TheLonelyWolf", "version":"0.0.8.1953", "source":"https://github.com/TheLonelyWolf1/USCM_discordtheme"}*//{}
 
 .winButtonClose-1HsbF-{
 	background-color:red;
@@ -6,19 +6,16 @@
 .theme-dark .topPill-30KHOu .item-PXvHYJ{
 	color:black;
 }
+/*Background Picture*/
+.appMount-3lHmkl,
 .theme-dark .container-3gCOGc,
 .theme-dark #friends .scroller-wrap ::-webkit-scrollbar-thumb,
 .theme-dark #friends .scroller-wrap ::-webkit-scrollbar-track-piece{
 	background-color:rgba(0, 0, 0, 0);
-	border-color:rgba(0, 0, 0, 0);
-}
-/*------------------------------------------------------------------*/
-/*Background Picture*/
-.app {
 	background-image: url("https://cdn.discordapp.com/attachments/496798720692715552/497534634414964736/USCM_Desktop.jpg");
 	background-size: cover !important;
 }
-
+/*------------------------------------------------------------------*/
 /*Background Transparenting*/
 .theme-dark .root-1BQpZw,
 .appMount-3VJmYg, .container-2lgZY8, .channels-Ie2l6A{
